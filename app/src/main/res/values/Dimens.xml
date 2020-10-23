@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop1">20dp</dimen>
+    <dimen name="BtnMargin">285dp</dimen>
+    <dimen name="ConfirmartxtSize">20sp</dimen>
+    <dimen name="ConfirmartitulotxtSize">25sp</dimen>
+    <dimen name="marginleft">20dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="BtnEditarMargin">150dp</dimen>
+
+
+
+
+</resources>

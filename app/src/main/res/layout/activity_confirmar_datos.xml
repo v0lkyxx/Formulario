@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmar_datos">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-26dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <android.widget.TextView
+            android:id="@+id/TVTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comic"
+            android:text="@string/TituloConfirmar"
+            android:textAlignment="center"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartitulotxtSize" />
+
+        <android.widget.TextView
+            android:id="@+id/TVNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginleft"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:fontFamily="@font/comic"
+            android:text="@string/ConfirmarNombre"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartxtSize" />
+
+        <android.widget.TextView
+            android:id="@+id/TVFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginleft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:fontFamily="@font/comic"
+            android:text="@string/ConfirmarFecha"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartxtSize" />
+
+        <android.widget.TextView
+            android:id="@+id/TVTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginleft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:fontFamily="@font/comic"
+            android:text="@string/ConfirmarTel"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartxtSize" />
+
+        <android.widget.TextView
+            android:id="@+id/TVEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginleft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:fontFamily="@font/comic"
+            android:text="@string/ConfirmarEmail"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartxtSize" />
+
+        <android.widget.TextView
+            android:id="@+id/TVDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginleft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:fontFamily="@font/comic"
+            android:text="@string/ConfirmarDescripcion"
+            android:textColor="@color/ColorConfirmar"
+            android:textSize="@dimen/ConfirmartxtSize" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/editarbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/BtnEditarMargin"
+            android:layout_marginTop="@dimen/marginTop"
+            android:fontFamily="@font/comic"
+            android:text="@string/BtnEditar"
+            android:textColor="@color/ColorConfirmar" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.constraint.ConstraintLayout>
